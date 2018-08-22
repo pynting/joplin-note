@@ -6,6 +6,8 @@ Simple wrapper script for [Joplin CLI](https://github.com/laurent22/joplin/blob/
 ./joplin-note.sh [-h] [-s] [-f] [-b notebook_name] [+<tag>] note_title note description [+<tag>]...
     -h                  This help page
     -s                  Preform sync after your note has been added
+    -e                  Export a backup of your database (if you are paranoid)
+                        to JoplinBackupYYYYMMDD.jex (before syncing if selected)
     -f                  Silent mode, does not return anything unless some error occur
                         and simply creates a notebook if the one specified does not exist.
     -b <notebook_name>  Specify a notebook to add the note to (default is "unsorted").
